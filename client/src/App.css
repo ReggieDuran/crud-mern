@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input, button {
+  width: 200px;;
+  height: 30px;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.food-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 700px;
+}
+
+.food {
+  flex-basis: 30%;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,.5);
+}
+
+.food button {
+  width: 80%;
+  margin: 0 auto 10px;
+}
